@@ -19,7 +19,7 @@
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"></ul>
                 <div class="d-flex text-end">
                     <form method="get" th:action="@{/authentication}" class="m-2">
-                        <button type="submit" value="Registration" class="btn btn-warning me-2">Login</button>
+                        <button type="submit" class="btn btn-warning me-2">Login</button>
                     </form>
                     <form method="get" th:action="@{/registration}" class="m-2">
                         <button type="submit" class="btn btn-warning">Sign-up</button>
@@ -58,12 +58,12 @@
                            value="sorted_by_descending_price">
                     <label for="descending_price">Отсортировать по убыванию цены</label>
                     <p>Категория товаров: </p>
-                    <input type="radio" id="furniture" name="contract" value="furniture">
-                    <label for="furniture">Мебель</label>
-                    <input type="radio" id="appliances" name="contract" value="appliances">
-                    <label for="appliances">Бытовая техника</label>
-                    <input type="radio" id="clothes" name="contract" value="clothes">
-                    <label for="clothes">Одежда</label>
+                    <input type="radio" id="furniture" name="contract" value="Роллы">
+                    <label for="furniture">Роллы</label>
+                    <input type="radio" id="appliances" name="contract" value="Лапша">
+                    <label for="appliances">Лапша</label>
+                    <input type="radio" id="clothes" name="contract" value="Пиццы">
+                    <label for="clothes">Пиццы</label>
                     <br>
                     <br>
                     <input type="submit" value="Найти">
@@ -92,7 +92,7 @@
 
 
 
-    <footer class="" style="background-color: orange;">
+        <footer class="absolute-bottom" style="background-color: orange; bottom: 0; width: 100%">
         <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
